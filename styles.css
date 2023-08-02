@@ -1,0 +1,31 @@
+*{
+    font-family: verdana, arial, sans-serif;
+    line-height: 1.5;
+}
+body{
+    background-color: #F28095;
+    margin: 0;
+}
+header, footer{
+    width: 1000px;
+    align-content: center;
+}
+header{
+    height: 150px;
+    background-color: #141a1a;
+    background-image: "images/bowl.png";
+    color: #fff;
+}
+h1{
+    margin: 0;
+    padding-top: 50px;
+    padding-left: 32px;
+}
+#grid-container{
+    width: 1000px;
+    justify-content: center;
+    background-color: #fdfdfd;
+    display: grid;
+    grid-template-columns: 184px 1fr;
+    gap: 0 16px;
+}
