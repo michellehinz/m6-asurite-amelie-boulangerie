@@ -50,6 +50,9 @@ nav a{
     font-weight: bold;
     
 }
+nav a[href="index.html"]{
+    background-color: #f28095;
+}
 nav a:hover{
 	text-decoration: none;
 	background-color: #f28095;
